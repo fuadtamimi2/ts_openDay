@@ -1,25 +1,32 @@
-# Open Day Registration System (יום פתוח להנדסאים)
+# Open Day Registration System
 
-A full-stack project for managing registrations for an Open Day event.
-Users can register from the landing page, and admins can view registrations in the admin area.
+Full stack project built with React + TypeScript + Node.js.
 
-## Features
-- Landing page in Hebrew (RTL)
-- Registration form with validation
-- Saves registrations to MongoDB
-- Admin login with JWT
-- Admin view of registrations (and export if included)
+Features:
+- Student registration
+- Admin login
+- Admin dashboard
+- MongoDB database
+- REST API
 
-## Tech Stack
-- Frontend: React + TypeScript + Vite + Tailwind
-- Backend: Node.js + Express + TypeScript
-- Database: MongoDB
+Tech stack:
+Frontend:
+React + Vite + TypeScript
 
-## How to run (Local)
+Backend:
+Node.js
+Express
+MongoDB
+Mongoose
 
-### 1 Backend
-```bash
+Run backend:
+
 cd backend
 npm install
-cp .env.example .env
+npm run dev
+
+Run frontend:
+
+cd vite-project
+npm install
 npm run dev
